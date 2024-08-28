@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,9 +26,80 @@
     <!-- Tailwind CSS CDN Link -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header>
-      <h1 class="text-red-600 bg-green-500 text-4xl">Assignment Three</h1>
+  <body class="font-[Manrope]">
+    <header class="w-11/12 lg:w-4/5 mx-auto">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="flex justify-center items-center gap-2">
+              <i
+                class="fa-solid fa-arrow-right w-8 h-8 bg-[#ABEF5F] p-2 rounded-full -rotate-45"
+              ></i>
+              <h2 class="text-3xl font-extrabold">Rinterio</h2>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="font-extrabold"><a>Home</a></li>
+              <li class="text-[#737373]"><a>Service</a></li>
+              <li class="text-[#737373]"><a>Portfolio</a></li>
+              <li class="text-[#737373]"><a>Blogs</a></li>
+              <li class="text-[#737373]"><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar-end">
+            <div class="dropdown">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden mr-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 mr-16 w-20 p-1 shadow"
+              >
+                <li class="font-extrabold"><a>Home</a></li>
+                <li class="text-[#737373]"><a>Service</a></li>
+                <li class="text-[#737373]"><a>Portfolio</a></li>
+                <li class="text-[#737373]"><a>Blogs</a></li>
+                <li class="text-[#737373]"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:block">
+              <i
+                class="fa-solid fa-magnifying-glass text-xl w-10 h-10 mr-4 p-2 bg-[#FFFFFF] shadow-md rounded-full"
+              ></i>
+              <i
+                class="fa-solid fa-cart-shopping text-xl w-10 h-10 mr-4 p-2 bg-[#FFFFFF] shadow-md rounded-full"
+              ></i>
+            </div>
+            <div class="hidden lg:block">
+              <a class="btn bg-[#ABEF5F] rounded-full font-extrabold ml-4"
+                >Book Consult
+                <i
+                  class="fa-solid fa-arrow-right w-8 h-8 bg-black text-white p-2 rounded-full -rotate-45"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer></footer>
