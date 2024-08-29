@@ -84,10 +84,10 @@
             </div>
             <div class="hidden lg:block">
               <i
-                class="fa-solid fa-magnifying-glass text-xl w-10 h-10 mr-4 p-2 bg-[#FFFFFF] shadow-md rounded-full"
+                class="fa-solid fa-magnifying-glass text-xl w-10 h-10 mr-4 p-2 bg-[#FFFFFF] shadow-md rounded-full cursor-pointer"
               ></i>
               <i
-                class="fa-solid fa-cart-shopping text-xl w-10 h-10 mr-4 p-2 bg-[#FFFFFF] shadow-md rounded-full"
+                class="fa-solid fa-cart-shopping text-xl w-10 h-10 mr-4 p-2 bg-[#FFFFFF] shadow-md rounded-full cursor-pointer"
               ></i>
             </div>
             <div class="hidden lg:block">
@@ -244,9 +244,94 @@
           </div>
         </div>
       </div>
+      <!-- Latest Portfolio Section Code Start Here -->
+      <div class="w-11/12 lg:w-4/5 mx-auto text-center pb-16">
+        <button
+          class="bg-[#E3F0D4] text-black font-bold py-2 px-4 rounded-full"
+        >
+          <i class="fa-solid fa-arrow-right mr-1"></i> Explore our Latest works
+        </button>
+        <h2
+          class="text-3xl lg:text-5xl text-[#212121] font-extrabold stroke-slate-100 mt-4 mb-6"
+        >
+          Our Latest Portfolio
+        </h2>
+        <p class="mb-6 lg:w-3/5 mx-auto font-medium">
+          We pride ourselves in providing you with the best process in the
+          business. We make YOU a pivotal part of the design process.
+        </p>
+
+        <div class="lg:flex justify-between lg:items-center">
+          <div
+            class="w-72 mx-auto lg:mx-0 lg:w-[720px] lg:flex lg:justify-between lg:items-center lg:text-left lg:gap-6 bg-base-100 shadow-xl rounded-2xl mb-5 p-5 border-2"
+          >
+            <img class="" src="assets/img1.png" alt="Hand in House" />
+            <div>
+              <h3 class="font-extrabold text-black text-xl my-4">Commercial</h3>
+              <p class="mb-5">
+                This home is more than a residence; it's a haven of opulence and
+                entertainment, where every square foot is a testament.
+              </p>
+              <button class="font-extrabold">
+                View Details
+                <i
+                  class="fa-solid fa-arrow-right w-8 h-8 bg-[#ABEF5F] text-black p-2 rounded-full -rotate-45"
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="mb-6">
+            <img
+              class="w-72 lg:w-full bg-base-100 shadow-xl rounded-2xl p-5 mx-auto border-2"
+              src="assets/img2.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="lg:grid lg:grid-cols-4 lg:gap-x-5">
+          <div class="mb-6">
+            <img
+              class="w-72 lg:w-full bg-base-100 shadow-xl rounded-2xl p-5 mx-auto border-2"
+              src="assets/img5.png"
+              alt=""
+            />
+          </div>
+
+
+          <div
+            class="w-72 lg:w-[550px] mx-auto lg:flex lg:justify-between lg:items-center lg:text-left lg:gap-6 bg-base-100 shadow-xl rounded-2xl mb-5 p-5 col-span-2 border-2"
+          >
+            <img class="" src="assets/img4.png" alt="Hand in House" />
+            <div>
+              <h3 class="font-extrabold text-black text-xl my-4">Commercial</h3>
+              <p class="mb-5">
+                This home is more than a residence; it's a haven of opulence.
+              </p>
+              <button class="font-extrabold">
+                View Details
+                <i
+                  class="fa-solid fa-arrow-right w-8 h-8 bg-[#ABEF5F] text-black p-2 rounded-full -rotate-45"
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="mb-6">
+            <img
+              class="w-72 lg:w-full bg-base-100 shadow-xl rounded-2xl p-5 mx-auto border-2"
+              src="assets/img3.png"
+              alt=""
+            />
+          </div>
+
+        </div>
+
+      </div>
       <!-- Input Section Code Start Here -->
       <div
-        class="bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover text-center py-24"
+        class="bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover text-center py-24 hidden"
       >
         <button
           class="bg-[#E3F0D4] text-black font-bold py-2 px-4 rounded-full"
@@ -311,7 +396,7 @@
         </button>
       </div>
     </main>
-    <footer class="bg-[#1C1C1C] py-12">
+    <footer class="bg-[#1C1C1C] py-12 hidden">
       <div class="w-11/12 lg:w-5/6 mx-auto">
         <div class="flex justify-center items-center gap-2">
           <i
